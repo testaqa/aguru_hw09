@@ -33,10 +33,10 @@ public class TestBase {
 
     @AfterEach
     public void afterEach() {
-//        attachScreenshot("Last screenshot");
-//        attachPageSource();
-//        attachAsText("Browser console logs", getConsoleLogs());
-//        attachVideo();
-//        Selenide.closeWebDriver();
+        attachScreenshot("Last screenshot");
+        attachPageSource();
+        attachAsText("Browser console logs", getConsoleLogs());
+        attachVideo();
+        Selenide.closeWebDriver();
     }
 }

@@ -100,7 +100,7 @@ public class DemoQaTests extends TestBase {
 
         // Assert
         step("Verify form is submitted", () -> {
-//            $("#example-modal-sizes-title-lg").shouldNotHave(text("Thanks for submitting the form"));
+            $("#example-modal-sizes-title-lg").shouldHave(text("Thanks for submitting the form"));
         });
     }
 
